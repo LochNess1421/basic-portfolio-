@@ -1,0 +1,134 @@
+body {
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    /* background-color: lightseagreen; */
+    width: 95%;
+    height: 100px;
+    /* border-radius: 35px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar    {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+li  {
+    margin: 15px 8px;
+}
+
+.logo {
+    height: 30px;
+    margin: 15px 30px;
+}
+
+.hero-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 6px;
+}
+
+.avatar  {
+    width: 140px;
+    height: 140px;
+    border-radius: 80px;
+}
+
+.hero-info  {
+    margin: 30px;
+    max-width: 300px;
+}
+
+.hero-image  {
+    height: 380px;
+    width: 380px;
+    margin: 50px;
+    border-radius: 30px;
+}
+
+.styled-break   {
+    width: 40px;
+    height: 5px;
+    background-color: purple;
+    border-radius: 2.5px;
+    margin: 30px 0 30px 0;
+}
+
+#name {
+    color: black;
+    font-size: 45px;
+}
+
+section   {
+    width: 95%;
+    height: 100px;
+    /* background-color: #234def; */
+    /* background-image: linear-gradient(blue, red); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.test   {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+#main   {
+    box-shadow: 2px 2px 1px;
+}
+
+.button  {
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ef866c;
+    width: 80px;
+    border-radius: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.button:hover    {
+    background-color: #ef744b;
+}
+
+.button:active   {
+    box-shadow: insset  -2px -2px -3px rgba(167, 53, 19, 0.856);
+}
+
+footer  {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a   {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+a:active    {
+    color: dodgerblue;
+}
+
